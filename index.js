@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 
     let fato = servicoBuscarFatoPorAno(anoFato);
 
-    res.json({ ano: fato});    
+    res.json({ano: fato});    
 });
 
 app.listen(8080, () => {
