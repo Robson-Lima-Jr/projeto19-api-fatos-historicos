@@ -1,4 +1,4 @@
-const fatos = [
+export const dadosFatos = [
     { ano: 1920, frase: "As mulheres ganham o direito ao voto nos EUA" },
     { ano: 1921, frase: "O partido comunista chinês é fundado" },
     { ano: 1922, frase: "O império britânico diminui" },
